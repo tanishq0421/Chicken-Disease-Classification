@@ -4,16 +4,16 @@ import logging
 
 logging.basicConfig(level=logging.INFO, format='[%(asctime)s]: %(message)s:')
 
-project_name = "chicken-disease-classification"
+project_name = "chicken_disease_classification"
 list_of_files = [
     ".github/workflows/.gitkeep",
-    f"src/{project_name}/_init_.py",
-    f"src/{project_name}/components/_init_.py",
-    f"src/{project_name}/utils/_init_.py",
+    f"src/{project_name}/__init__.py",
+    f"src/{project_name}/components/__init__.py",
+    f"src/{project_name}/utils/__init__.py",
     f"src/{project_name}/config/configuration.py",
-    f"src/{project_name}/pipeline/_init_.py",
-    f"src/{project_name}/entity/_init_.py",
-    f"src/{project_name}/constants/_init_.py",
+    f"src/{project_name}/pipeline/__init__.py",
+    f"src/{project_name}/entity/__init__.py",
+    f"src/{project_name}/constants/__init__.py",
     "config/config.yaml",
     "dvc.yaml",
     "params.yaml",
