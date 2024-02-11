@@ -1,6 +1,8 @@
 from chicken_disease_classification.constants import *
 from chicken_disease_classification.utils.common import read_yaml, create_directories
 from chicken_disease_classification.entity.config_entity import DataIngestionConfig, PrepareBaseModelConfig, PrepareCallbacksConfig
+import os
+
 class ConfigurationManager:
     def __init__(
         self,
