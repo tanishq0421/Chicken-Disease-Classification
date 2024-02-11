@@ -2,7 +2,7 @@ from chicken_disease_classification.config.configuration import ConfigurationMan
 from chicken_disease_classification.components.prepare_base_model import PrepareBaseModel
 from chicken_disease_classification import logger
 
-STAGE_NAME = "Prepare base mode"
+STAGE_NAME = "Prepare base model"
 
 class PrepareBaseModelTrainingPipeline:
     def __init__(self):
